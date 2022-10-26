@@ -25,15 +25,14 @@
 /*Medium tablets with pixel 767px to 1023px*/
 @media only screen and (max-width:1023px){
      .name{
-        color:purple;
         position:absolute;
         top:50%;
-        left:50%;*/
+        left:50%;
         /*margin-left:auto;
         margin-right:auto;*/
     }
 }
-}
+
 
 /*Big tablets with pixel 1023px to 1200px*/
 @media only screen and (max-width:1200px){
@@ -42,3 +41,4 @@
         top:35%;
         left:25%;
     }
+}

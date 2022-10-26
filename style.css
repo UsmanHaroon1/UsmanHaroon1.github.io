@@ -23,6 +23,14 @@ body{
     transform: translate(-50%,-50%);
 }
 
+.count{
+    position: absolute;
+    font-family: 'Montez', cursive;
+    font-size: 45px;
+    font-style: normal;
+    left: 20%;
+}
+
 /*******Animation**********/
 .animated{
     animation-duration: 5s;
@@ -92,7 +100,7 @@ body{
 /*-----------------------*/
 
 .social-icons li i:hover{
-    color:.#4be214;
+    color:#4be214;
     transform: scale(1.1) rotate(5deg);
 }
 

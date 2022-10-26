@@ -33,10 +33,12 @@
         <li><a target="_blank" href="mailto:haroonasr@gmail.com" title="Mail me"><i class="fa fa-envelope"></i></a></li>
         <li><a target="_blank" href="Usman_Haroon_Resume.pdf" title="Resume"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
         </ul>
+        
+        <div class="count">Visitors count: <span id="visits"></span></div>
     </div> 
     <script type="text/javascript">
     var typed = new Typed(".typed",{
-                    strings: ["Python Enthusiast","AI/ML Follower","Voracious Reader"],
+                    strings: ["Python Enthusiast","Aspiring web dev","Voracious Reader"],
                     backSpeed: 40,
                     typeSpeed: 100,
                     startdelay:200,
@@ -46,5 +48,11 @@
                     showCursor:false
                   });
     </script>
+    <script>
+        function cb(response) {
+            document.getElementById('visits').innerText = response.value;
+        }
+        </script>
+        <script async src="https://api.countapi.xyz/hit/usmanharoon1.github.io/visits?callback=cb"></script>
 </body>
 </html>
