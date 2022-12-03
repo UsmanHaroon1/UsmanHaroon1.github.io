@@ -1,5 +1,5 @@
-/*Small phones with pixel 0px to 480*/
-@media only screen and (max-width:480px){
+/* Small phones with pixel 0px to 480*/
+/* @media only screen and (max-width:480px){
     .name{
         font-size:30px;
         position: absolute;
@@ -9,10 +9,10 @@
     .social-icons{
         padding-top:50px;
     }
-}
+} */
 
 /*Small tablets with pixel 481px to 767px*/
-@media only screen and (max-width:767px){
+/* @media only screen and (max-width:767px){
     .name{
         font-size:75px;
         position: absolute;
@@ -20,25 +20,25 @@
     .social-icons{
         padding-top:50px;
     }
-}
+} */
 
 /*Medium tablets with pixel 767px to 1023px*/
-@media only screen and (max-width:1023px){
-     .name{
-        position:absolute;
-        top:50%;
-        left:50%;
-        margin-left:auto;
-        margin-right:auto;
+/* @media only screen and (max-width:1023px){
+    
+    .name{
+        font-size: 150px;
+        margin-left: 0 auto;
+        margin-right: 0%;
     }
-}
+
+} */
 
 
 /*Big tablets with pixel 1023px to 1200px*/
-@media only screen and (max-width:1200px){
+/* @media only screen and (max-width:1200px){
     .name{
         position:absolute;
         top:35%;
         left:25%;
     }
-}
+} */

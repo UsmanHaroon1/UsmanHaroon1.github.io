@@ -1,7 +1,8 @@
 *{
-    margin:0;
-    padding:0;
-    font-family: 'Euphoria Script', cursive;        
+    margin:auto;
+    padding:auto;
+    /* font-family: 'Euphoria Script', cursive; */
+    /* line-height: 120%; */
 }
 
 body{
@@ -12,22 +13,26 @@ body{
 #particles-js{
     height:100%;
 }
-
-.name{
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Montez', cursive;
+    color: #4be214;
+    font-size: 100px;
     position:absolute;
     top:50%;
     left:50%;
-    font-family: 'Montez', cursive;
-    color: #4be214;
-    font-size: 90px;
     transform: translate(-50%,-50%);
 }
 
 .count{
     position: absolute;
     font-family: 'Montez', cursive;
-    font-size: 45px;
-    font-style: normal;
+    font-size: 55px;
+    font-style: normal; 
     left: 20%;
 }
 
@@ -41,7 +46,7 @@ body{
 }
 
 .about p{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Quicksand' , sans-serif;
     position:inherit;
@@ -49,6 +54,9 @@ body{
 
 .typed{
     font-family: 'Quicksand' , sans-serif;
+    font-size: 35px;
+    text-align: start;
+    position:inherit;
 }
 
 /*-----------------------*/
@@ -60,8 +68,8 @@ body{
     display:inline-block;
     padding:0 1px;
     position: relative;
-    top:10px;
-    font-size: 35px;
+    top:0px;
+    font-size: 45px;
     color:rgba(167, 161, 161, 0.78);
 }
 
@@ -89,7 +97,7 @@ body{
 }
 
 .fa-stack-overflow{
-    transform: scale(0.8);
+    transform: scale(1.2);
 }
 
 .fa-file-pdf-o{
@@ -100,12 +108,7 @@ body{
 /*-----------------------*/
 
 .social-icons li i:hover{
-    color:#4be214;
     transform: scale(1.1) rotate(5deg);
-}
-
-.ion-social-linkedin-outline{
-    font-size:65px;
 }
 
 .ion-social-linkedin-outline:hover,
