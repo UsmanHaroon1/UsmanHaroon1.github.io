@@ -84,6 +84,14 @@ body{
     color:rgba(167, 161, 161, 0.78);
 }
 
+.fa-stack-overflow{
+    transform: scale(1.2);
+}
+/* .ion-social-linkedin-outline
+{
+    transform: scale(0.8);
+}*/
+
 .fa-quora{
     transform: scale(0.8);
 }
@@ -94,10 +102,6 @@ body{
 
 .fa-free-code-camp{
     transform: scale(0.8);
-}
-
-.fa-stack-overflow{
-    transform: scale(1.2);
 }
 
 .fa-file-pdf-o{
@@ -134,10 +138,6 @@ body{
 .fa-stack-overflow:hover,
 .fa-stack-overflow:active{
     color:#f48024;
-}
-
-.fa-stack-overflow{
-    font-size:30px;
 }
 
 .fa-envelope:hover,
