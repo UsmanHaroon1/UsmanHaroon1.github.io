@@ -85,12 +85,12 @@ body{
 }
 
 .fa-stack-overflow{
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
-/* .ion-social-linkedin-outline
+.ion-social-linkedin-outline
 {
-    transform: scale(0.8);
-}*/
+    transform: scale(1.1);
+}
 
 .fa-quora{
     transform: scale(0.8);
